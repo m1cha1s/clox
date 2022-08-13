@@ -46,16 +46,6 @@ value.h
 chunk.h
 /home/m1cha1s/clox/src/chunk.h
 
-/home/m1cha1s/clox/src/main.c
-stdio.h
--
-chunk.h
-/home/m1cha1s/clox/src/chunk.h
-debug.h
-/home/m1cha1s/clox/src/debug.h
-common.h
-/home/m1cha1s/clox/src/common.h
-
 /home/m1cha1s/clox/src/memory.h
 common.h
 /home/m1cha1s/clox/src/common.h

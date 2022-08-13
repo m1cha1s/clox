@@ -10,9 +10,7 @@ int main() {
   
   initChunk(&chunk);
   
-  int constant = addConstant(&chunk, 1.2);
-  writeChunk(&chunk, OP_CONSTANT, 123);
-  writeChunk(&chunk, constant, 123);
+  for (double i = 0; i<300; i+=1.0) writeConstant(&chunk, i, (int)i);
   
   writeChunk(&chunk, OP_RETURN, 123);
   

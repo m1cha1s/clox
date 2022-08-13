@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/m1cha1s/clox/src/chunk.h
+common.h
+/home/m1cha1s/clox/src/common.h
+value.h
+/home/m1cha1s/clox/src/value.h
+
+/home/m1cha1s/clox/src/common.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/home/m1cha1s/clox/src/debug.c
+stdint.h
+-
+stdio.h
+-
+chunk.h
+/home/m1cha1s/clox/src/chunk.h
+debug.h
+/home/m1cha1s/clox/src/debug.h
+value.h
+/home/m1cha1s/clox/src/value.h
+
+/home/m1cha1s/clox/src/debug.h
+chunk.h
+/home/m1cha1s/clox/src/chunk.h
+
+/home/m1cha1s/clox/src/value.h
+common.h
+/home/m1cha1s/clox/src/common.h
+

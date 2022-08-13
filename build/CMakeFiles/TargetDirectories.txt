@@ -1,0 +1,3 @@
+/home/m1cha1s/clox/build/CMakeFiles/rebuild_cache.dir
+/home/m1cha1s/clox/build/CMakeFiles/edit_cache.dir
+/home/m1cha1s/clox/build/CMakeFiles/clox.dir

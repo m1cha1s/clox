@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/m1cha1s/clox/src/chunk.c
-stdlib.h
--
-chunk.h
-/home/m1cha1s/clox/src/chunk.h
-memory.h
-/home/m1cha1s/clox/src/memory.h
-value.h
-/home/m1cha1s/clox/src/value.h
-
 /home/m1cha1s/clox/src/chunk.h
 common.h
 /home/m1cha1s/clox/src/common.h
@@ -29,18 +19,6 @@ stddef.h
 -
 stdint.h
 -
-
-/home/m1cha1s/clox/src/debug.c
-stdint.h
--
-stdio.h
--
-chunk.h
-/home/m1cha1s/clox/src/chunk.h
-debug.h
-/home/m1cha1s/clox/src/debug.h
-value.h
-/home/m1cha1s/clox/src/value.h
 
 /home/m1cha1s/clox/src/debug.h
 chunk.h
@@ -57,24 +35,6 @@ common.h
 /home/m1cha1s/clox/src/common.h
 vm.h
 /home/m1cha1s/clox/src/vm.h
-
-/home/m1cha1s/clox/src/memory.c
-stdlib.h
--
-memory.h
-/home/m1cha1s/clox/src/memory.h
-
-/home/m1cha1s/clox/src/memory.h
-common.h
-/home/m1cha1s/clox/src/common.h
-
-/home/m1cha1s/clox/src/value.c
-stdio.h
--
-memory.h
-/home/m1cha1s/clox/src/memory.h
-value.h
-/home/m1cha1s/clox/src/value.h
 
 /home/m1cha1s/clox/src/value.h
 common.h
@@ -97,6 +57,6 @@ stdio.h
 /home/m1cha1s/clox/src/vm.h
 chunk.h
 /home/m1cha1s/clox/src/chunk.h
-bits/stdint-uintn.h
--
+value.h
+/home/m1cha1s/clox/src/value.h
 

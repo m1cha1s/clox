@@ -7,10 +7,14 @@ CMakeFiles/clox.dir/src/chunk.c.o: ../src/common.h
 CMakeFiles/clox.dir/src/chunk.c.o: ../src/memory.h
 CMakeFiles/clox.dir/src/chunk.c.o: ../src/value.h
 
+CMakeFiles/clox.dir/src/compiler.c.o: ../src/chunk.h
 CMakeFiles/clox.dir/src/compiler.c.o: ../src/common.h
 CMakeFiles/clox.dir/src/compiler.c.o: ../src/compiler.c
 CMakeFiles/clox.dir/src/compiler.c.o: ../src/compiler.h
+CMakeFiles/clox.dir/src/compiler.c.o: ../src/debug.h
 CMakeFiles/clox.dir/src/compiler.c.o: ../src/scanner.h
+CMakeFiles/clox.dir/src/compiler.c.o: ../src/value.h
+CMakeFiles/clox.dir/src/compiler.c.o: ../src/vm.h
 
 CMakeFiles/clox.dir/src/debug.c.o: ../src/chunk.h
 CMakeFiles/clox.dir/src/debug.c.o: ../src/common.h

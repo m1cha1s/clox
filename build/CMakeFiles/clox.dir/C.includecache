@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/m1cha1s/clox/src/chunk.h
+common.h
+/home/m1cha1s/clox/src/common.h
+value.h
+/home/m1cha1s/clox/src/value.h
+
 /home/m1cha1s/clox/src/common.h
 stdbool.h
 -
@@ -14,15 +20,33 @@ stddef.h
 stdint.h
 -
 
-/home/m1cha1s/clox/src/scanner.c
+/home/m1cha1s/clox/src/debug.h
+chunk.h
+/home/m1cha1s/clox/src/chunk.h
+
+/home/m1cha1s/clox/src/main.c
 stdio.h
+-
+stdlib.h
 -
 string.h
 -
+chunk.h
+/home/m1cha1s/clox/src/chunk.h
+debug.h
+/home/m1cha1s/clox/src/debug.h
 common.h
 /home/m1cha1s/clox/src/common.h
-scanner.h
-/home/m1cha1s/clox/src/scanner.h
+vm.h
+/home/m1cha1s/clox/src/vm.h
 
-/home/m1cha1s/clox/src/scanner.h
+/home/m1cha1s/clox/src/value.h
+common.h
+/home/m1cha1s/clox/src/common.h
+
+/home/m1cha1s/clox/src/vm.h
+chunk.h
+/home/m1cha1s/clox/src/chunk.h
+value.h
+/home/m1cha1s/clox/src/value.h
 

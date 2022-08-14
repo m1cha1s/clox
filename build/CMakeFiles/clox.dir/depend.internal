@@ -8,10 +8,14 @@ CMakeFiles/clox.dir/src/chunk.c.o
  /home/m1cha1s/clox/src/memory.h
  /home/m1cha1s/clox/src/value.h
 CMakeFiles/clox.dir/src/compiler.c.o
+ /home/m1cha1s/clox/src/chunk.h
  /home/m1cha1s/clox/src/common.h
  /home/m1cha1s/clox/src/compiler.c
  /home/m1cha1s/clox/src/compiler.h
+ /home/m1cha1s/clox/src/debug.h
  /home/m1cha1s/clox/src/scanner.h
+ /home/m1cha1s/clox/src/value.h
+ /home/m1cha1s/clox/src/vm.h
 CMakeFiles/clox.dir/src/debug.c.o
  /home/m1cha1s/clox/src/chunk.h
  /home/m1cha1s/clox/src/common.h

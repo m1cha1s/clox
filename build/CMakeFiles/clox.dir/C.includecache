@@ -14,18 +14,6 @@ stddef.h
 stdint.h
 -
 
-/home/m1cha1s/clox/src/compiler.c
-stdio.h
--
-common.h
-/home/m1cha1s/clox/src/common.h
-compiler.h
-/home/m1cha1s/clox/src/compiler.h
-scanner.h
-/home/m1cha1s/clox/src/scanner.h
-
-/home/m1cha1s/clox/src/compiler.h
-
 /home/m1cha1s/clox/src/scanner.c
 stdio.h
 -

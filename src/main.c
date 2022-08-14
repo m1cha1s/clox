@@ -13,8 +13,9 @@ int main() {
   
   initChunk(&chunk);
   
-  writeConstant(&chunk, 124567.8, 123);
-  writeChunk(&chunk, OP_RETURN, 124);
+  writeConstant(&chunk, 1567.8, 123);
+  writeChunk(&chunk, OP_NEGATE, 123);
+  writeChunk(&chunk, OP_RETURN, 123);
   
   printf("Interpreting\n");
   interpret(&chunk);

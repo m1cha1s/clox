@@ -18,6 +18,7 @@ CMakeFiles/clox.dir/src/main.c.o: ../src/common.h
 CMakeFiles/clox.dir/src/main.c.o: ../src/debug.h
 CMakeFiles/clox.dir/src/main.c.o: ../src/main.c
 CMakeFiles/clox.dir/src/main.c.o: ../src/value.h
+CMakeFiles/clox.dir/src/main.c.o: ../src/vm.h
 
 CMakeFiles/clox.dir/src/memory.c.o: ../src/common.h
 CMakeFiles/clox.dir/src/memory.c.o: ../src/memory.c
@@ -27,4 +28,11 @@ CMakeFiles/clox.dir/src/value.c.o: ../src/common.h
 CMakeFiles/clox.dir/src/value.c.o: ../src/memory.h
 CMakeFiles/clox.dir/src/value.c.o: ../src/value.c
 CMakeFiles/clox.dir/src/value.c.o: ../src/value.h
+
+CMakeFiles/clox.dir/src/vm.c.o: ../src/chunk.h
+CMakeFiles/clox.dir/src/vm.c.o: ../src/common.h
+CMakeFiles/clox.dir/src/vm.c.o: ../src/debug.h
+CMakeFiles/clox.dir/src/vm.c.o: ../src/value.h
+CMakeFiles/clox.dir/src/vm.c.o: ../src/vm.c
+CMakeFiles/clox.dir/src/vm.c.o: ../src/vm.h
 

@@ -7,5 +7,6 @@ add_executable(clox
   src/memory.c
   src/debug.c
   src/value.c
+  src/vm.c
 )
 include_directories(src)

@@ -19,6 +19,7 @@ CMakeFiles/clox.dir/src/main.c.o
  /home/m1cha1s/clox/src/debug.h
  /home/m1cha1s/clox/src/main.c
  /home/m1cha1s/clox/src/value.h
+ /home/m1cha1s/clox/src/vm.h
 CMakeFiles/clox.dir/src/memory.c.o
  /home/m1cha1s/clox/src/common.h
  /home/m1cha1s/clox/src/memory.c
@@ -28,3 +29,10 @@ CMakeFiles/clox.dir/src/value.c.o
  /home/m1cha1s/clox/src/memory.h
  /home/m1cha1s/clox/src/value.c
  /home/m1cha1s/clox/src/value.h
+CMakeFiles/clox.dir/src/vm.c.o
+ /home/m1cha1s/clox/src/chunk.h
+ /home/m1cha1s/clox/src/common.h
+ /home/m1cha1s/clox/src/debug.h
+ /home/m1cha1s/clox/src/value.h
+ /home/m1cha1s/clox/src/vm.c
+ /home/m1cha1s/clox/src/vm.h

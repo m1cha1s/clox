@@ -5,9 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/m1cha1s/clox/src/chunk.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/chunk.c.o"
+  "/home/m1cha1s/clox/src/compiler.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/compiler.c.o"
   "/home/m1cha1s/clox/src/debug.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/debug.c.o"
   "/home/m1cha1s/clox/src/main.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/main.c.o"
   "/home/m1cha1s/clox/src/memory.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/memory.c.o"
+  "/home/m1cha1s/clox/src/scanner.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/scanner.c.o"
   "/home/m1cha1s/clox/src/value.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/value.c.o"
   "/home/m1cha1s/clox/src/vm.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/vm.c.o"
   )

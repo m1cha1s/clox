@@ -312,6 +312,33 @@ src/scanner.c.s:
 	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/scanner.c.s
 .PHONY : src/scanner.c.s
 
+src/table.o: src/table.c.o
+
+.PHONY : src/table.o
+
+# target to build an object file
+src/table.c.o:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/table.c.o
+.PHONY : src/table.c.o
+
+src/table.i: src/table.c.i
+
+.PHONY : src/table.i
+
+# target to preprocess a source file
+src/table.c.i:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/table.c.i
+.PHONY : src/table.c.i
+
+src/table.s: src/table.c.s
+
+.PHONY : src/table.s
+
+# target to generate assembly for a file
+src/table.c.s:
+	$(MAKE) -f CMakeFiles/clox.dir/build.make CMakeFiles/clox.dir/src/table.c.s
+.PHONY : src/table.c.s
+
 src/value.o: src/value.c.o
 
 .PHONY : src/value.o
@@ -396,6 +423,9 @@ help:
 	@echo "... src/scanner.o"
 	@echo "... src/scanner.i"
 	@echo "... src/scanner.s"
+	@echo "... src/table.o"
+	@echo "... src/table.i"
+	@echo "... src/table.s"
 	@echo "... src/value.o"
 	@echo "... src/value.i"
 	@echo "... src/value.s"

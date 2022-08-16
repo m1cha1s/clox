@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/clox.dir/src/memory.c.o"
   "CMakeFiles/clox.dir/src/object.c.o"
   "CMakeFiles/clox.dir/src/scanner.c.o"
+  "CMakeFiles/clox.dir/src/table.c.o"
   "CMakeFiles/clox.dir/src/value.c.o"
   "CMakeFiles/clox.dir/src/vm.c.o"
   "clox"

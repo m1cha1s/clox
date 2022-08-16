@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/m1cha1s/clox/src/memory.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/memory.c.o"
   "/home/m1cha1s/clox/src/object.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/object.c.o"
   "/home/m1cha1s/clox/src/scanner.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/scanner.c.o"
+  "/home/m1cha1s/clox/src/table.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/table.c.o"
   "/home/m1cha1s/clox/src/value.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/value.c.o"
   "/home/m1cha1s/clox/src/vm.c" "/home/m1cha1s/clox/build/CMakeFiles/clox.dir/src/vm.c.o"
   )

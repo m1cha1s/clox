@@ -8,6 +8,7 @@
 #include "common.h"
 #include "compiler.h"
 #include "debug.h"
+#include "table.h"
 #include "value.h"
 #include "vm.h"
 
@@ -142,6 +143,15 @@ static InterpretResult run() {
         ObjString* name = READ_STRING();
         tableSet(&vm.globals, name, peek(0));
         pop();
+        break;
+      }
+      case OP_SET_GLOBAL: {
+        ObjString* name = READ_STRING();
+        if (tableSet(&vm.globals, name, peek(0))) {
+          tableDelete(&vm.globals, name);
+          runtimeError("Undefined varible '%s'.", name->chars);
+          return INTERPRET_RUNTIME_ERROR;
+        }
         break;
       }
       case OP_EQUAL: {

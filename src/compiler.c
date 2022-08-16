@@ -287,9 +287,7 @@ static uint32_t identifierConstant(Token* name) {
 }
 
 static uint32_t parseVariable(const char* errorMessage) {
-	printf("== parseVariable ==\n");
 	consume(TOKEN_IDENTIFIER, errorMessage);
-	printf("== consumed ==\n");
 	return identifierConstant(&parser.previous);
 }
 
@@ -303,8 +301,6 @@ static void expression() {
 
 static void varDeclaration() {
 	uint32_t global = parseVariable("Expected variable name.");
-	
-	printf("\n== Global %d ==\n", global);
 	
 	if (match(TOKEN_EQUAL)) {
 		expression();

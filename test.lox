@@ -1,6 +1,4 @@
-var a = "hello";
-var b = "world!";
-
-a = "Hello " + b;
-
-print a;
+{
+	var test = 12;
+	print test;
+}

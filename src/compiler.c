@@ -202,9 +202,9 @@ static void namedVariable(Token name, bool canAssign) {
 	
 	if (canAssign && match(TOKEN_EQUAL)) {
 		expression();
-		emitBytes(OP_SET_GLOBAL, (uint8_t)arg);
+		emitBytes(setOp, (uint8_t)arg);
 	} else {
-		emitBytes(OP_GET_GLOBAL, (uint8_t)arg);
+		emitBytes(getOp, (uint8_t)arg);
 	}
 }
 

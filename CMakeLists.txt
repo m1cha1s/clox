@@ -13,4 +13,7 @@ add_executable(clox
   src/object.c
   src/table.c
 )
-include_directories(src)
+
+target_include_directories(clox PUBLIC
+  src/
+)

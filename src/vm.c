@@ -65,20 +65,13 @@ static void concatenate() {
 }
 
 InterpretResult interpret(const char* source) {
-  Chunk chunk;
-  initChunk(&chunk);
   
-  if (!compile(source, &chunk)) {
-    freeChunk(&chunk);
+  if (!compile(source)) {
     return INTERPRET_COMPILE_ERROR;
   }
   
-  vm.chunk = &chunk;
-  vm.ip = vm.chunk->code;
-  
   InterpretResult result = run();
   
-  freeChunk(&chunk);
   return result;
 }
 
